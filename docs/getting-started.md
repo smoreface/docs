@@ -136,15 +136,17 @@ Once you have the IP address and an SSH client, you can log in via SSH. The foll
         The authenticity of host '123.456.78.90 (123.456.78.90)' can't be established.
         RSA key fingerprint is 11:eb:57:f3:a5:c3:e0:77:47:c4:15:3a:3c:df:6c:d2.
         Are you sure you want to continue connecting (yes/no)?
+        
+4.  The SSH client initiates the connection. You'll know you're logged in when the following prompt appears:
+
+        Warning: Permanently added '123.456.78.90' (RSA) to the list of known hosts.
+        root@li123-456:~# 
 
 3.  The login prompt appears for you to enter the password you created for the `root` user above.
 
         root@123.456.78.90's password:
 
-4.  The SSH client initiates the connection. You'll know you're logged in when the following prompt appears:
 
-        Warning: Permanently added '123.456.78.90' (RSA) to the list of known hosts.
-        root@li123-456:~# 
 
  {: .note }
 >
